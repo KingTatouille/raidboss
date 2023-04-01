@@ -1,0 +1,39 @@
+prefix: "&f[&cRaidBoss&f] "
+
+raid_interval_hours: 0
+raid_interval_minutes: 0
+raid_interval_seconds: 30
+
+boss_location:
+  world: "world"
+  x: 100
+  y: 65
+  z: 200
+
+portal_location:
+  world: "world"
+  x: 50
+  y: 65
+  z: 150
+
+destination:
+  world: "world"
+  x: 100
+  y: 64
+  z: 100
+
+# Boss aléatoire
+bosses:
+  - SkeletalKnight
+  - ZombieKing
+  - SpiderQueen
+
+rewards:
+  - item: DIAMOND
+    min_damage: 10
+    max_amount: 5
+    drop_chance: 0.5
+  - item: EMERALD
+    min_damage: 5
+    max_amount: 10
+    drop_chance: 0.7

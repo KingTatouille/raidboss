@@ -1,0 +1,16 @@
+name: RaidBoss
+version: '${project.version}'
+main: hillwalk.raidboss.net.Main
+api-version: 1.19
+authors: [ HillWalk ]
+description: Raid a bosses alone or with your friends!
+website: webwander.fr
+
+
+commands:
+  group:
+    description: Gère les groupes pour les raids
+    usage: /<command> <create|invite|join|leave|disband|list> [args...]
+  raid:
+    description: Lance la phase de préparation de 5 minutes avant l'arrivée du boss.
+    usage: /<command>
